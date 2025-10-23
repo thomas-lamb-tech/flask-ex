@@ -1,8 +1,4 @@
-# flask_live_search
 
-Python and Javascript for live search (not autocomplete, for [OpenSearch](https://github.com/dewitt/opensearch) [suggestions](https://github.com/dewitt/opensearch/blob/master/mediawiki/Specifications/OpenSearch/Extensions/Suggestions/1.1/Draft%201.wiki) see [pyopensearch](https://hg.sr.ht/~clach04/pyopensearch))
-
-Technique adopted from https://tutorial101.blogspot.com/2020/11/flask-mysql-jquery-ajax-live-search.html
 
 ## Setup
 
@@ -28,7 +24,6 @@ Default:
 
     python app.py
 
-which will load into memory the contents of the file [entry_per_line_utf8.txt](https://github.com/clach04/flask_live_search/blob/main/entry_per_line_utf8.txt) (sample file contains 2-letter short code and country name mapping)
 
 Specify different input text file for search demo (UNIX/Linux):
 
